@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #c5c5c5;
+    background-image: url(ange.jpg);
+}
+.container .front{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5%;
+    background: #fff;
+    max-width: 34%;
+    min-height: 15vh;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+
+}
+.container .front .input input{
+    width: 185%;
+    margin-top: 5px;
+    height: 6vh;
+    border-radius: 5px;
+    border: solid 1.5px rgba(0,0,0,0.3);
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    background: #333;
+    font-size: 15px;
+    transition: ease 0.1s;
+}
+.container .front .input input:hover{
+    border-bottom: solid 2px #1872f2;
+}
+.container .front .btn button{
+    margin-top: 5px;
+    width: 70%;
+    height: 6vh;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: forestgreen;
+}
+.container .front .btn button:hover{
+    border: solid 1px #1872f2;
+}
+table{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 0.1%;
+    margin-top: 2%;
+}
+table tr th{
+    background: forestgreen;
+    padding: 10px;
+    color: #fff;
+    width: 10%;
+}
+table tr td{
+    background: rgb(0,0,0,0.3);
+    padding: 10px;
+    color: #fff;
+    font-weight: 550;
+    backdrop-filter: blur(25px);
+}
+.btn-report{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 2%;
+    background: #fff;
+    max-width: 34%;
+    min-height: 15vh;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+.btn-report button{
+    margin-top: 5px;
+    width: 70%;
+    height: 6vh;
+    margin-left: 4px;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: forestgreen;
+}
